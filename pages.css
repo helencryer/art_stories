@@ -1,0 +1,74 @@
+* {
+    font-family: 'Lora', serif;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(240, 237, 233);
+}
+
+.topnav a {
+    float: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 14px 35px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .topnav a.active {
+    color: black;
+  }
+
+  h1 {
+    font-size: 500px;
+    text-align: center;
+    padding: 50px;
+    text-transform: uppercase;
+  }
+
+  p {
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 400px;
+    padding-right: 400px;
+    font-size: 30px;
+    padding-bottom: 30px;
+  }
+
+  .footer {
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(240, 237, 233);
+    align-items: center;
+}
+
+.footer_continer {
+    bottom: 0px;
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 999;
+}
+
+.footer_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.icon {
+    height: 40px;
+    width: 40px;
+}
+
+.copy_icon {
+    height: 15px;
+    width:15px;
+}
